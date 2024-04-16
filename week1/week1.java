@@ -35,26 +35,26 @@ public class week1{
         Scanner scanner = new Scanner(System.in);
 
         switch (scanner.nextLine().toLowerCase()) {
-            case "monday":
-                System.out.println(1);
+            case "1":
+                System.out.println("monday");
                 break;
-            case "tuesday":
-                System.out.println(2);
+            case "2":
+                System.out.println("tuesday");
                 break;
-            case "wednesday":
-                System.out.println(3);
+            case "3":
+                System.out.println("wednesday");
                 break;
-            case "thursday":
-                System.out.println(4);
+            case "4":
+                System.out.println("thursday");
                 break;
-            case "friday":
-                System.out.println(5);
+            case "5":
+                System.out.println("friday");
                 break;
-            case "saturday":
-                System.out.println(6);
+            case "6":
+                System.out.println("saturday");
                 break;
-            case "sunday":
-                System.out.println(7);
+            case "7":
+                System.out.println("sunday");
                 break;
             default:
                 System.out.println("Wrong Day");
@@ -64,20 +64,20 @@ public class week1{
     public static void Task4If() {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine().toLowerCase();
-        if (input.equals("monday"))
-            System.out.println(1);
-        else if (input.equals("tuesday"))
-            System.out.println(2);
-        else if (input.equals("wednesday"))
-            System.out.println(3);
-        else if (input.equals("thursday"))
-            System.out.println(4);
-        else if (input.equals("friday"))
-            System.out.println(5);
-        else if (input.equals("saturday"))
-            System.out.println(6);
-        else if (input.equals("sunday"))
-            System.out.println(7);
+        if (input.equals(1))
+            System.out.println("monday");
+        else if (input.equals(2))
+            System.out.println("tuesday");
+        else if (input.equals(3))
+            System.out.println("wednesday");
+        else if (input.equals(4))
+            System.out.println("thursday");
+        else if (input.equals(5))
+            System.out.println("friday");
+        else if (input.equals(6))
+            System.out.println("saturday");
+        else if (input.equals(7))
+            System.out.println("sunday");
         else
             System.out.println("Wrong Day");
     }
